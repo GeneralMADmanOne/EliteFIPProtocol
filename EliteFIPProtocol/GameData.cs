@@ -5,7 +5,20 @@
         Target,
         Location,
         Navigation,
-        Jump
+        Jump,
+        DockingGranted,
+        DockingDenied,
+        DockingTimeout,
+        DockingCancelled,
+        LoadGame,
+        Loadout,
+        RefuelAll,
+        RefuelPartial,
+        ReservoirReplenished,
+        FuelScoop,
+        ShipyardSwap,
+        ShipyardBuy,
+        ShipyardNew
     }
 
     public class GameData {

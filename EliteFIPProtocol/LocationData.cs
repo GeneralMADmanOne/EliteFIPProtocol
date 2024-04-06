@@ -11,6 +11,12 @@ namespace EliteFIPProtocol {
         public string MarketId { get; set; }
         public string StationName { get; set; }
         public string StationType { get; set; }
+        public double DistanceFromStarInLightSeconds { get; set; }
+        public string StationAllegiance { get; set; }
+        public string StationEconomy { get; set; }
+        public string StationFaction { get; set; }
+        public string StationGovernment { get; set; }
+        
 
         public static FIPPacket CreateFIPPacket(LocationData locationData) {
 
